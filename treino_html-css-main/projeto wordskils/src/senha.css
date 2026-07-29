@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(78, 77, 77);
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(247, 244, 244);
+    padding: 10px;
+    top: 0;
+    position: sticky;
+    box-shadow: 0px 6px 16px #145eff;
+}
+
+#title{
+    margin-left: 10px;   
+}
+
+.logo{
+    margin-right: 10px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(45deg,  #000000, #7000ff)
+}
+
+.cadastro{
+    font-size: 15px;
+    color: #7000ff;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    background-color: rgb(247, 244, 244);
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px #145eff;
+}
+
+.hero:hover{
+    transform: scale(1.03);
+    transition: ease-in-out 0.5s;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+}
+
+.form input{
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.form input:hover{
+    transform: scale(1.03);
+    transition: 0.5s;
+    border-color: #145eff;
+}
+#senha{
+    margin-top: 10px;
+}
+
+.form button{
+    padding: 10px 40px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.form button:hover{
+    color: white;
+    background: linear-gradient(45deg,  #145eff, #7000ff);
+    transform: scale(1.03);
+    transition: 0.5s;
+    box-shadow: 0px 5px 5px rgba(27, 9, 127, 0.306);
+
+}
+
+a{
+    font-size: 13px;
+    color: black;
+}
+
+a:hover{
+    color: #145eff;
+    text-decoration: none;
+}
